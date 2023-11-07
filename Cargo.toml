@@ -1,0 +1,17 @@
+[package]
+name = "cadillac-solver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+arrayvec = "0.7.4"
+ascii = "1.1.0"
+bitvec = { version = "1.0.1", default-features = false }
+itertools = "0.11.0"
+ordered-float = "4.1.1"
+rand = { version = "0.8.5", features = ["small_rng"] }
+
+[dev-dependencies]
+clap = { version = "4.4.7", features = ["derive"] }
+indoc = "2.0.4"
